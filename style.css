@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 5% 5%;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+.flex{
+    display: flex;
+}
+
+header .alignment{
+    /* justify-content: flex-end; */
+    color: white;
+}
+
+header ul{
+    list-style-type: none;
+    column-gap: 5px;
+    position: fixed;
+    z-index: 1;
+
+    right: 0;
+    top: 1%;
+}
+
+header li{
+    background-color: grey;
+    padding: .15rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.row{
+    width: 100%;
+    margin: 0 0 1vh;
+    /* flex-wrap: wrap; */
+}
+
+.single-box{
+    position: relative;
+    width: calc(100% / 7);
+    /* height: 50px; */
+    margin-right: .3rem;
+
+    background-image: url(mountain.jpg);
+    background-size: cover;
+    height: 100px;
+}
+
+
+.row :last-child{
+    margin: 0;
+}
+
