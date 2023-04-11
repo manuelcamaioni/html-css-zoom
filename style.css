@@ -89,6 +89,7 @@ footer{
 
 .camera-audio-container{
     height: 100%;
+    align-items: center;
 }
 
 .tools-container{
@@ -101,8 +102,13 @@ footer{
     width: 10%;
 }
 
-.mic-container{
+.mic-container, .video-container{
     height: 100%;
     width: fit-content;
     align-items: center;
+    justify-content: center;
+}
+
+.arrow-container{
+    padding: 0 1rem;
 }
