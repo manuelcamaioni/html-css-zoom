@@ -15,14 +15,12 @@ main{
     display: flex;
 }
 
-header .alignment{
-    /* justify-content: flex-end; */
-    color: white;
-}
 
 header ul{
     list-style-type: none;
     column-gap: 5px;
+    color: white;
+    
     position: fixed;
     z-index: 1;
 
@@ -59,3 +57,11 @@ header li{
     margin: 0;
 }
 
+.name{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    color: white;
+    background-color: rgba(135, 135, 135, 0.7);
+}
