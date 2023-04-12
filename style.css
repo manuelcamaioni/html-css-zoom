@@ -49,7 +49,7 @@ header li{
 
 .row{
     width: 100%;
-    margin: 0 0 1vh;
+    margin: 0 0 2vh;
     /* flex-wrap: wrap; */
 }
 
@@ -57,7 +57,7 @@ header li{
     position: relative;
     width: calc(100% / 7);
     /* height: 50px; */
-    margin-right: .3rem;
+    margin-right: .2rem;
 
     background-image: url(mountain.jpg);
     background-size: cover;
@@ -80,6 +80,8 @@ header li{
 
 footer{
 
+
+    height: 10vh;
     background-color: grey;
     width: 100%;
     color: white;
@@ -90,7 +92,7 @@ footer{
 .camera-audio-container, .tools-container, .end-meeting-container{
     height: 100%;
     align-items: center;
-    margin: .6rem 0
+    
 }
 
 
