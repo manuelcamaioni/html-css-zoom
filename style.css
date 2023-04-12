@@ -5,7 +5,7 @@
 }
 
 main{
-    padding: 5% 5% 7% 5%;
+    padding: 5% 5% 0 5%;
     height: 100vh;
     background-color: black;
     overflow: hidden;
@@ -80,10 +80,13 @@ header li{
 
 footer{
 
-
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
     height: 10vh;
     background-color: grey;
-    width: 100%;
+    
     color: white;
 
     justify-content: space-between;
