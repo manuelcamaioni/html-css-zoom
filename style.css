@@ -4,37 +4,20 @@
     box-sizing: border-box;
 }
 
-main{
-    padding: 5% 5% 0 5%;
-    height: 100vh;
-    background-color: black;
-    overflow: hidden;
-}
-
-.flex{
-    display: flex;
-}
-
-.column{
-    flex-direction: column;
+html{
+    scroll-behavior: smooth;
 }
 
 header{
-    position: fixed;
     width: 100%;
     height: 50px;
     background-color: black;
-    z-index: 1;
 }
-
 
 header ul{
     list-style-type: none;
     column-gap: 5px;
     color: white;
-
-    position: fixed;
-    z-index: 1;
 
     right: 0;
     top: 1%;
@@ -47,26 +30,48 @@ header li{
     border-radius: 5px;
 }
 
+
+main{
+    padding: 0 5%;
+    height: calc(100vh - 120px);
+    background-color: black;
+    overflow-y: auto;
+    
+}
+
+footer{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    height: 70px;
+    background-color: grey;
+    color: white;
+
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
 .row{
     width: 100%;
-    margin: 0 0 2vh;
-    /* flex-wrap: wrap; */
 }
 
 .single-box{
     position: relative;
     width: calc(100% / 7);
-    /* height: 50px; */
-    margin-right: .2rem;
 
     background-image: url(mountain.jpg);
     background-size: cover;
     height: 100px;
-}
-
-
-.row :last-child{
-    margin: 0;
+    border: 3px solid black;
 }
 
 .name{
@@ -78,19 +83,7 @@ header li{
     background-color: rgba(135, 135, 135, 0.7);
 }
 
-footer{
 
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    height: 10vh;
-    background-color: grey;
-    
-    color: white;
-
-    justify-content: space-between;
-}
 
 .camera-audio-container, .tools-container, .end-meeting-container{
     height: 100%;
