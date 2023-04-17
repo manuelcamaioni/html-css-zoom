@@ -40,10 +40,10 @@ main{
 }
 
 footer{
-    position: absolute;
+    /* position: absolute;
     right: 0;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
 
     height: 70px;
     background-color: grey;
@@ -102,7 +102,7 @@ footer .container{
     width: fit-content;
     align-items: center;
     justify-content: center;
-    margin: 0 .2rem;
+    margin: 0 .4rem;
 }
 
 .arrow-container{
