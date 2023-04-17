@@ -19,6 +19,7 @@ header ul{
     column-gap: 5px;
     color: white;
 
+    justify-content: flex-end;
     right: 0;
     top: 1%;
 }
